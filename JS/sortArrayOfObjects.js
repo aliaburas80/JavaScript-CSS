@@ -56,9 +56,8 @@ const arrayOfObjects = [
   },
 ];
 
-const sortyBy = (sortCriteria) => {
-    return arrayOfObjects.sort((a, b) => (a[sortCriteria] > b[sortCriteria]) ? 1 : -1)
-}
+const sortyBy = (sortCriteria) => arrayOfObjects.sort((a, b) => (a[sortCriteria] > b[sortCriteria]) ? 1 : -1)
+
 
 console.log('sortyBy(name);', sortyBy('name'));
 console.log('sortyBy(age);', sortyBy('age'));
