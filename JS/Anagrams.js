@@ -1,4 +1,4 @@
-//Anagrams algorithm
+//Anagrams
 /*
 Anagrams are words that have the same characters in the same quantity. 
 This means that two strings are anagrams if we can rearrange one to get the other.
