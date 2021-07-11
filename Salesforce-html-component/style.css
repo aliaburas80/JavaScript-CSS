@@ -1,0 +1,117 @@
+.THIS {
+}
+
+.THIS .shahidfooter{
+    background-color:#323c4c;
+    padding: 40px 0 32px;
+}
+
+.THIS .shahid-footer-ul{
+    margin-bottom: 36px;
+    width:100%;
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.THIS .shahid-footer-ul.ltr{
+    flex-direction: row;
+}
+
+
+.THIS .shahid-footer-li{
+   position: relative;
+    margin: 0 18px;
+}
+
+
+.THIS .shahid-footer-li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.THIS .shahid-footer-border{
+    left: -16px;
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    top: 7px;
+    border-left: 1px solid #8595ad;
+}
+
+.THIS .shahid-footer-border.ltr{
+    left: 0;
+    border-left: 0;
+    right: -16px;
+    border-right: 1px solid #8595ad;
+}
+
+.THIS .shahid-footer-SocialMediaIcons-container{
+    display:flex;
+    justify-content: center; 
+}
+
+.THIS .shahid-footer-SocialMediaIcons-container.ltr{
+    display:flex;
+    justify-content: center; 
+   flex-direction: row-reverse;
+}
+
+.THIS .shahid-footer-SocialMediaIcons{
+    margin: 0 32px 0 0;
+}
+
+.THIS .shahid-footer-SocialMediaIcons.ltr{
+    margin: 0 0 0 32px;
+}
+
+.THIS .shahid-footer-SocialMediaIcons a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+
+.THIS .shahid-footer-dailymotion{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-dailymotion.svg") no-repeat;
+}
+
+.THIS .shahid-footer-dailymotion:hover {
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-dailymotion-hover.svg") no-repeat;
+}
+
+.THIS .shahid-footer-youtube{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-yt.svg") no-repeat;
+}
+.THIS .shahid-footer-youtube:hover{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-yt-hover.svg") no-repeat;   
+}
+
+.THIS .shahid-footer-instagram{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-instagram.svg") no-repeat;
+}
+
+.THIS .shahid-footer-instagram:hover{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-instagram-hover.svg") no-repeat;
+}
+
+.THIS .shahid-footer-twitter{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-tw.svg") no-repeat;
+}
+
+
+.THIS .shahid-footer-twitter:hover{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-tw-hover.svg") no-repeat;
+}
+
+.THIS .shahid-footer-facebook{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-fb.svg") no-repeat;    
+}
+
+.THIS .shahid-footer-facebook:hover{
+    background: url("https://static.s3.shahid.mbc.net/SocialMediaIcons/icons-fb-hover.svg") no-repeat;    
+}

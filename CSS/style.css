@@ -1,0 +1,46 @@
+html,
+body {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  max-width: 50%;
+  resize: both; /* Made the div resizabel  */
+  overflow: auto;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  min-width: 30%;
+}
+
+.span {
+  margin: 0 auto;
+  text-align: center;
+  display:block;
+}
+
+.hrefOption{
+  background-color: #763626;
+  color: #90AFC5
+}
+
+a:link,a:active,a:visited,a:focus{
+  color:#90AFC5;
+  text-decoration: none;
+  font-size: 16px;
+  display:block
+}
+
+img{
+  max-width: 300px;
+  aspect-ratio: 16 / 9;
+  text-align: center;
+  margin:0 auto;
+  display: block;
+}
